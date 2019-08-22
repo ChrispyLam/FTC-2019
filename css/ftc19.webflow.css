@@ -1771,7 +1771,15 @@ p {
   -ms-grid-row-span: 1;
   grid-row-end: span 1;
 }
+@font-face {
+  font-family: 'Henrik';
+  font-display: swap;
+  src: url('../fonts/Henrik-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  unicode-range: U+0041-007A;
 
+}
 @font-face {
   font-family: 'Musket';
   src: url('../fonts/Musket-regular.otf') format('opentype');
@@ -1783,13 +1791,4 @@ p {
   src: url('../fonts/Musket-bold.otf') format('opentype');
   font-weight: 700;
   font-style: normal;
-}
-@font-face {
-  font-family: 'Henrik';
-  font-display: swap;
-  src: local('Henrik'), url('../fonts/Henrik-Regular.ttf') format('truetype');
-  font-weight: 400;
-  font-style: normal;
-  unicode-range: U+000-5FF;
-
 }
